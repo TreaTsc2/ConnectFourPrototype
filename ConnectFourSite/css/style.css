@@ -1,0 +1,122 @@
+/* Ensure the body takes the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+/* Center the game container */
+.connect-four-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh; /* Center vertically */
+    min-width: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Game board styles */
+#game pre {
+    font-size: 20px; /* Adjust font size for better visibility */
+    line-height: 1.5;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Input and button styles */
+#moveInput {
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+.btn-warning {
+    background-color: #ffd700; /* Yellow background */
+    color: #000; /* Black text */
+}
+
+.btn-warning:hover {
+    background-color: #ffc107; /* Darker yellow on hover */
+    color: #000; /* Black text */
+}
+
+/* Main container for full height */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height covering the screen */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000; /* Black background for navbar */
+}
+
+.navbar-brand {
+    color: red; /* Red color for "Connect Four" text */
+    font-family: 'Press Start 2P', cursive; /* Apply the font style */
+}
+
+.nav-link {
+    font-family: 'Press Start 2P', cursive; /* Apply the pixelated font style to nav links */
+    color: #ffffff; /* White text for nav links */
+}
+
+.nav-link:hover {
+    color: #00ff00; /* Green text on hover */
+}
+
+.input-group input.form-control {
+    background-color: #333; /* Dark background for input */
+    color: #fff; /* White text */
+    border: 1px solid #ffd700; /* Yellow border */
+}
+
+.input-group input.form-control::placeholder {
+    color: #bfbfbf; /* Gray placeholder text */
+}
+
+.btn-outline-light {
+    color: #fff; /* White text for outline button */
+    border-color: #ffd700; /* Yellow border */
+}
+
+.btn-outline-light:hover {
+    background-color: #ffd700; /* Yellow background on hover */
+    color: #000; /* Black text on hover */
+}
+
+.btn-warning {
+    background-color: #ffd700; /* Yellow background */
+    color: #000; /* Black text */
+}
+
+.btn-warning:hover {
+    background-color: #ffc107; /* Darker yellow on hover */
+    color: #000; /* Black text */
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #000; /* Black background for footer */
+    padding: 20px 0; /* Padding above and below the text */
+    width: 100%; /* Full width */
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-text {
+    color: #ffffff; /* White text color for footer */
+    font-family: 'Press Start 2P', cursive; /* Same pixelated font */
+    font-size: 14px; /* You can adjust font size as needed */
+    margin: 0; /* Remove margin */
+}
+
+.trademark-symbol {
+    font-size: 14px; /* Same size as footer text */
+}
